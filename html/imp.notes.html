@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!--1) each part should be first checked whether that part is responsive or not before oving to next part-->
+
+<!--2) bootstrap work in rows -->
+
+<!--3) for each row 100% is equivalent to 12 in bootstrap -->
+
+<html>
+<head>
+	<title>bootstrap</title>
+
+<!-- go to getbootstrap.com and scroll down and then copy link from css only section -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- this is the meta tag link which helps to make the website responsive on moile -->
+
+
+  	
+</head>
+<body>
+
+
+<img src="https://app.firstfiddle.in/images/brand-banner/lotd.jpeg" class="w-100">
+
+
+
+<!-- 1) container-fluid : to fix the width on entire screen ie: 100% width
+
+2) container : to give gaping on both sides of the row -->
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-6 bg-info"> 
+		<!-- info = colour -->
+		<h1>Hello MITS</h1>
+	</div>
+	<div class="col-md-6 bg-danger" style="background: blue!important"> 
+
+<!-- !important : our code gives more priority to bootstrap section than css style section so if we want to use css color and also not remove the bootstrap colour ...we have to use !important after css style . !important will help to ignore the bootstrap section colour -->
+
+		<h1>Hello RJIT</h1>
+	</div> 
+</div><!-- row end -->
+</div><!-- container-fluid end -->
+<br><br>
+
+<div class="container">
+<div class="row">
+	<div class="col-md-4 bg-warning"> 
+		<!-- info = colour -->
+		<h1>Hello MITS</h1>
+	</div>
+	<div class="col-md-4 bg-danger"> 
+		<h1>Hello RJIT</h1>
+	</div>
+	<div class="col md-4 bg-success">
+		<h1>Hello MPCT</h1>
+	</div>
+</div><!-- row end -->
+</div><!-- container end -->
+
+</body>
+</html>

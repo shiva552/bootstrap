@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		.a{
+			border: 5px solid;
+			width: 100%;
+			height: 600px;
+			background-color: red;
+			font-size: 70px;
+		}
+		.mob{
+			display: none;
+		}
+		@media(max-width: 600px)   /*helps to set different style,color,img etc for mob view set by max width*/
+		{
+			.a{
+				border:20px solid;
+				background-color: green;
+				font-size: 30px;
+			}
+			.mob{
+				display: block;
+			}
+			.weblogo{
+				display: none;
+			}
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="a">
+		pninfosys gwalior
+		<img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" class="weblogo">
+		<img src="https://www.firstfiddle.in/assets/images/logo-for-mobile.png" class="mob">
+	</div>
+
+</body>
+</html>

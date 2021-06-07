@@ -1,0 +1,344 @@
+.a{
+	background-color:#0a0705a6;
+}
+.t{
+	color: white;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.m{
+	margin-left:20px;
+}
+.ab{
+	padding-top:20px;
+	font-family: prague;
+	letter-spacing: 3px;
+}
+.abc{
+	text-align: justify;
+	font-size: large;
+	line-height: 35px;
+	letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.b{
+	background:url(https://www.firstfiddle.in//assets/images/bannerabout.jpg);
+	width: 100%;
+	height: 500px;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+.img1{
+	width: 75%;
+}
+.t1{
+	font-size: 60px;
+	font-weight: bold;
+}
+.mtop{
+	margin-top: 30px;
+    margin-bottom: 100px;
+}
+.logo{
+	margin-top: 100px;
+}
+.big{
+	display: block;
+}
+.small{
+	display: none;
+}
+}
+.col2{
+	overflow: hidden;
+}
+
+
+
+
+
+/*ABOUT*/
+.bgimage{
+	background: url('https://www.firstfiddle.in/assets/images/about-new.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	height:630px;
+}
+.bgimage h1{
+	color: white;
+	font-size: 80px;
+	font-family:'Cantata One', serif;
+}
+.bgimage h2{
+	color: white;
+	font-size: 30px;
+	font-family:'Cantata One', serif;
+	letter-spacing: 1px;
+}
+.bgtext{
+	margin-top: 270px;
+	margin-left: 27%;
+	position:absolute;
+}
+.abb{
+	background:url('https://www.firstfiddle.in/assets/images/gamebanner.jpg');
+	width: 100%;
+	height: 500px;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+
+
+/*BRANDS*/
+.bgimage2{
+	background: url('https://www.firstfiddle.in/assets/images/brands.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100%; 
+	height:630px;
+}
+.bgimage2 h1{
+	color: white;
+	font-size: 90px;
+	font-family:'Cantata One', serif;
+}
+.bgtext2{
+	margin-top: 328px;
+    margin-left: 35%;
+    position: absolute;
+
+}
+
+
+/*OUR TEAM*/
+.bgimage3{
+	background: url('https://www.firstfiddle.in/assets/images/franchise-with-us.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100%; 
+	height:630px;
+}
+.bgimage3 h1{
+	color: white;
+	font-size: 90px;
+	font-family:'Cantata One', serif;
+}
+.bgtext3{
+	margin-top: 270px;
+    margin-left: 29%;
+    position: absolute;
+}
+.col2{
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    padding: 1px 1px 1px 1px;
+    height: 400px;
+    max-width: 108%;
+}
+
+
+
+/*PRESS RELEASE*/
+.bgimage3{
+	background: url('https://www.firstfiddle.in/assets/images/banner-press-release.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover;
+	width: 100%;
+	height:630px;
+}
+.bgtext4{
+	margin-top: 270px;
+    margin-left: 20%;
+    position: absolute;
+}
+.sbox{
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+    padding: 50px;
+    margin: 60px 100px 80px;
+}
+.scroll{
+	width: 500px;
+	height: 500px;
+	overflow: auto;
+}
+
+
+/*CONTACT US*/
+.bgimage4{
+	background: url('https://www.firstfiddle.in/assets/images/contact-new.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100%; 
+	height:630px;
+}
+.bgimage4 h1{
+	color: white;
+	font-size: 90px;
+	font-family:'Cantata One', serif;
+}
+.bgtext5{
+	margin-top: 270px;
+    margin-left: 29%;
+    position: absolute;
+}
+
+
+/*CAREERS*/
+.bgimage5{
+	background: url('https://www.firstfiddle.in/assets/images/banner-about.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100%; 
+	height:630px;
+}
+.bgimage5 h1{
+	color: white;
+	font-size: 90px;
+	font-family:'Cantata One', serif;
+}
+.bgtext6{
+	margin-top: 270px;
+    margin-left: 33%;
+    position: absolute;
+}
+
+
+
+
+/*MEDIA*/
+@media(max-width: 600px)
+{
+	.mtop{
+	margin-top: 0!important;
+    margin-bottom: 54px;
+}
+h1{
+    color: #fff;
+    font-size: 30px!important;
+}
+.imgbg{
+	margin-top: 76px;
+}
+.img1{
+	margin-top: 50px;
+	width: 100%
+}
+.img2{
+	margin-top:30px;
+}
+.big{
+	display: none;
+}
+.small{
+	display: block;
+}
+.a{
+	background: #fcae1a;
+}
+.bgtext{
+	margin-top: 270px;
+    margin-left: -4%;
+    position: absolute;
+}
+.bgtext2{
+	margin-top: 270px;
+    margin-left: 19%;
+    position: absolute;
+}
+.bgtext3{
+	margin-top: 270px;
+    margin-left: 8%;
+    position: absolute;
+}
+.bgtext4{
+	margin-top: 270px;
+    margin-left: -2%;
+    position: absolute;
+}
+.bgtext5{
+	margin-top: 270px;
+    margin-left: 2%;
+    position: absolute;
+}
+.bgtext6{
+	margin-top: 270px;
+    margin-left: 14%;
+    position: absolute;
+}
+.bgimage h1{
+	font-size: 45px !important;
+	font-weight: bold;
+}
+.bgimage2 h1{
+	font-size: 45px !important;
+	font-weight: bold;
+}
+.bgimage3 h1{
+	font-size: 45px !important;
+	font-weight: bold;
+}
+.bgimage4 h1{
+	font-size: 45px !important;
+	font-weight: bold;
+}
+.bgimage5 h1{
+	font-size: 45px !important;
+	font-weight: bold;
+}
+.bgimage h2{
+	font-size: 25px !important;
+}
+.bgimage2{
+	background: url('https://www.firstfiddle.in/assets/images/brands.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height:550px;
+}
+.bgimage3{
+	background: url('https://www.firstfiddle.in/assets/images/banner-press-release.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height:550px;
+}
+.bgimage4{
+	background: url('https://www.firstfiddle.in/assets/images/franchise-with-us.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height:550px;
+}
+.bgimage5{
+	background: url('https://www.firstfiddle.in/assets/images/banner-about.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height:550px;
+}
+.col2{
+    margin-top: 10px;
+}
+.sbox {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+    padding: 37px;
+    margin: 56px 18px 119px;
+    }
+.scroll {
+    width: 214px;
+    height: 173px;
+    overflow: auto;
+    margin-top: 10px;
+}
+.con{
+	margin-top:25px;
+}
+}
+/*.logo{
+	width: 105px !important;
+}*/
+
+
+

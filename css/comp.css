@@ -1,0 +1,79 @@
+.a{
+	background-color:#0a0705a6;
+}
+.log{
+	width: 125%;
+}
+.t{
+	color: white;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.m{
+	margin-left:20px;
+}
+.iinfo{
+	position: absolute;
+	margin-top: -105px;
+	margin-left: -197px;
+}
+.ilogo{
+	position: absolute;
+	margin-top: 510px;
+    margin-left: -165px;
+}
+.b{
+	background: #0c0c0d;
+}
+.htext{
+	color:#f5d831;
+}
+.ptext{
+	font-weight: 600;
+	color: white;
+}
+.bg{
+	background: url('../image/c7.jpeg');
+	background-size: cover;
+	background-repeat:no-repeat;
+	height: 650px; 
+}
+.button{
+	height: 42px;
+    width: 100px;
+	margin-top: 556px;
+	color:#ffffff;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    text-shadow: 0 1px 1px rgb(0 0 0 / 40%);
+    box-shadow: none;
+    border-radius: none;
+}
+
+@media(max-width: 600px){
+.a{
+	background:#0c0c0d;
+}
+.log{
+	width: 78px;
+    height: 68px;
+}
+.imgbg{
+	margin-top: 76px;
+}
+.i{
+margin-top: 311px;
+}
+.iinfo{
+	margin-left: -164px !important;
+    margin-top: -5px;
+}
+.ilogo{
+	margin-left: -150px !important;
+    margin-top: 893px;
+}
+.lo{
+	margin-top: 100px;
+}
+}
